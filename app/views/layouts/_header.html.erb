@@ -1,13 +1,13 @@
 <header class = "navbar navbar-fixed-top navbar-inverse">
 	<div class="container">
-		<center>Chao mung ban den voi demo web Ruby and rail </center>
-		<hr>
-	</div>
+		
+	<%= link_to "Demo App",'#' , id:"logo"%>
 	<nav>
-		<center>
-		<ul><%= link_to "microposts",  "microposts" %> </ul>
-		<ul><%= link_to "users",  "users" %></ul>
+		<ul class = "nav navbar-nav pull-right">
+			<li><%= link_to "microposts",  "microposts" %> </li>
+			<li><%= link_to "users",  "users" %></li>
+		</ul>
 		<!-- <ul><%= link_to "Login", "#" %></ul> -->
-		</center>
 	</nav>
+	</div>
 </header>
